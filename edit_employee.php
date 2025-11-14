@@ -51,7 +51,7 @@ if(isset($_POST['submit'])){
         </div>
         <div class="mb-3"><input type="number" name="salary" class="form-control" value="<?= e($employee['salary']) ?>" step="0.01"></div>
         <button type="submit" name="submit" class="btn btn-warning">Update Employee</button>
-        <a href="dashboard.php" class="btn btn-secondary">Cancel</a>
+        <a href="index.php" class="btn btn-secondary">Cancel</a>
     </form>
 </div>
 </body>
